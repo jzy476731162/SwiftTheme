@@ -77,6 +77,7 @@
 		1C8F0FD324F6495D00004648 /* ThemeAttributedStringPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F0FD224F6495D00004648 /* ThemeAttributedStringPicker.swift */; };
 		1C8F0FD524F654E000004648 /* ThemeAnyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F0FD424F654E000004648 /* ThemeAnyPicker.swift */; };
 		28C56555C2CDD153B7082CC7 /* libPods-JsonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CB27A67341172FF363A8B4 /* libPods-JsonDemo.a */; };
+		437463A1264DF65A00843497 /* UITextView+TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437463A0264DF65A00843497 /* UITextView+TextAttributes.swift */; };
 		4D4A1E2C4393C7FA0F35401B /* libPods-PlistDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F49FBCCD673D55E76D872AA5 /* libPods-PlistDemo.a */; };
 		A322D88D1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322D88C1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift */; };
 		A34AD0521CF6A7A900B54F53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34AD0511CF6A7A900B54F53 /* main.m */; };
@@ -301,6 +302,7 @@
 		1C8F0FD424F654E000004648 /* ThemeAnyPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeAnyPicker.swift; sourceTree = "<group>"; };
 		33DAE847E97B3D75B346DC84 /* Pods-JsonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonDemo/Pods-JsonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		417E8CF58D0A02C9ADB1FB59 /* Pods-PlistDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlistDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlistDemo/Pods-PlistDemo.release.xcconfig"; sourceTree = "<group>"; };
+		437463A0264DF65A00843497 /* UITextView+TextAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+TextAttributes.swift"; sourceTree = "<group>"; };
 		56CB27A67341172FF363A8B4 /* libPods-JsonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JsonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F20E6BF028F63DFA7AB48C /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A322D88C1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeKeyboardAppearancePicker.swift; sourceTree = "<group>"; };
@@ -642,6 +644,7 @@
 				1C6079BB231B7D6A00BCE899 /* UILabel+TextAttributes.swift */,
 				0A2210CC207095F6006BC28D /* UIRefreshControl+TitleAttributes.swift */,
 				0AD183E5204F8B90005F5D85 /* UITextField+PlaceholderAttributes.swift */,
+				437463A0264DF65A00843497 /* UITextView+TextAttributes.swift */,
 			);
 			name = ThemeAttributes;
 			sourceTree = "<group>";
@@ -1156,6 +1159,7 @@
 				A373E39F1E3C34E500ED2F2B /* ThemeStatePicker.swift in Sources */,
 				18D642E61C53638200DADEC5 /* UIColorExtension.swift in Sources */,
 				187C0D1E1C562AC00000FA89 /* ThemePicker.swift in Sources */,
+				437463A1264DF65A00843497 /* UITextView+TextAttributes.swift in Sources */,
 				1C8F0FD324F6495D00004648 /* ThemeAttributedStringPicker.swift in Sources */,
 				1C6079B7231B72F100BCE899 /* ThemeVisualEffectPicker.swift in Sources */,
 				A322D88D1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift in Sources */,

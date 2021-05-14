@@ -185,7 +185,19 @@ import UIKit
         get { return getThemePicker(self, "setTextColor:") as? ThemeColorPicker }
         set { setThemePicker(self, "setTextColor:", newValue) }
     }
+    
+    var theme_placeholderAttributes: ThemeStringAttributesPicker? {
+        get { return getThemePicker(self, "updatePlaceholderAttributes:") as? ThemeStringAttributesPicker }
+        set { setThemePicker(self, "updatePlaceholderAttributes:", newValue) }
+    }
+    
+    var theme_attributedText: ThemeAttributedStringPicker? {
+        get { return getThemePicker(self, "setAttributedText:") as? ThemeAttributedStringPicker }
+        set { setThemePicker(self, "setAttributedText:", newValue) }
+    }
 }
+
+
 @objc public extension UISearchBar
 {
     #if os(iOS)
