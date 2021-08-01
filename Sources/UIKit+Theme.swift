@@ -195,6 +195,11 @@ import UIKit
         get { return getThemePicker(self, "setAttributedText:") as? ThemeAttributedStringPicker }
         set { setThemePicker(self, "setAttributedText:", newValue) }
     }
+    
+    var theme_linkAttributedText: ThemeAttributedStringPicker? {
+        get { return getThemePicker(self, "setLinkTextAttributes:") as? ThemeAttributedStringPicker }
+        set { setThemePicker(self, "setLinkTextAttributes:", newValue) }
+    }
 }
 
 
